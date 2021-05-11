@@ -7,13 +7,14 @@ header {
     text-align: center;
     color: #d15c0d;
     border-radius: 10px;
-    background-color: #97C8D2;
+    background-color: #97C8D270;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 30px;
     
 }
 body {
-    background-color: #f3f3f3;
+    background-image: url(spine.jpg);
+    background-size:1600px;
 }
 main {
     
@@ -43,8 +44,7 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.flex-container :active {
-    width: 600px;
-    height: 300px;
-}
 
+.disclaimer {
+    font-size: small;
+}
