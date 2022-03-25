@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakverkur.is</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script>
+        let isGrey = false;
+        function changeColor() {
+            if (isGrey) {
+                document.body.style.backgroundColor = 'red';
+                isGrey = false;
+            } else {
+                document.body.style.backgroundColor = 'grey';
+                isGrey = true;
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -17,6 +29,7 @@
             <div>Leiðir til bata</div>
             <div>Greinar</div>
         </div>
+        <button id="testButton" onclick="changeColor()">Try me out</button>
     </main>
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="javascript/app.js"></script>
