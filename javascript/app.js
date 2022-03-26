@@ -1,10 +1,30 @@
-let isGrey = false;
-function changeColor() {
-    if (isGrey) {
-        document.body.style.backgroundColor = 'red';
-        isGrey = false;
+let orgCont = true;
+let orgText = "My name is Reynir and I am on my third year of software engineering BSc.";
+
+function bio() {
+    if (orgCont) {
+    document.getElementById("contcont").innerHTML = "Short Biography";
+    orgCont = false;
     } else {
-        document.body.style.backgroundColor = 'grey';
-        isGrey = true;
+        document.getElementById("contcont").innerHTML = orgText;
+        orgCont = true;
     }
+}
+function exp() {
+    if (orgCont) {
+        document.getElementById("contcont").innerHTML = "Experience";
+        orgCont = false;
+        } else {
+            document.getElementById("contcont").innerHTML = orgText;
+            orgCont = true;
+        }
+}
+function edu() {
+    if (orgCont) {
+        document.getElementById("contcont").innerHTML = "Education";
+        orgCont = false;
+        } else {
+            document.getElementById("contcont").innerHTML = orgText;
+            orgCont = true;
+        }
 }

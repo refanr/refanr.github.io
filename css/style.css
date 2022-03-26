@@ -1,46 +1,52 @@
 * {
-    border: 1px;
-    border-style: solid;
-    border-color: red;
+    border: 1px solid red
 }
 
 body {
-    background-color: #B0C0DB ;
+    background-color: #aeb5c2 ;
     color: #4b0000;
 }
 
 #navigation {
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
     text-align: center;
 
 }
 
 .navbtn {
-    background-color: #B0C0DB;
+    
     color: #4b0000;
     flex: 32%;
+    padding: 5px;
+    border: 1px outset ;
+    border-radius: 3px;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    
 }
 
 footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    
 }
 
 #content {
     margin: 4em;
-    padding: 4em;
-
+    padding: 4em 0em 4em 0em ;
+    
+    
     flex: 70%;
+    border-radius: 15px;
 }
 #ftr {
-    flex: 50%;
+    color: #6c6666;
+    font-weight: 100;
+    flex: 80%;
 }
