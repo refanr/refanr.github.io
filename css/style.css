@@ -1,4 +1,46 @@
+* {
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
 body {
     background-color: #B0C0DB ;
     color: #4b0000;
+}
+
+#navigation {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    text-align: center;
+
+}
+
+.navbtn {
+    background-color: #B0C0DB;
+    color: #4b0000;
+    flex: 32%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#content {
+    margin: 4em;
+    padding: 4em;
+
+    flex: 70%;
+}
+#ftr {
+    flex: 50%;
 }
