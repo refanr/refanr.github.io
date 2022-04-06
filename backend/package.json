@@ -1,27 +1,25 @@
 {
-    "name": "reynirbackend",
-    "version": "0.0.1",
-    "description": "A backend for me.",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "devStart": "nodemon index.js"
-    },
-    "keywords": [
-        "reynir",
-        "REST"
-    ],
-    "author": {
-        "name": "Reynir Gunnarsson"
-    },
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.19.2",
-        "cors": "^2.8.5",
-        "express": "^4.17.3"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.15"
-    }
+  "name": "reynirbackend",
+  "version": "0.0.1",
+  "description": "A backend for me.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon index.js"
+  },
+  "keywords": [
+    "reynir",
+    "REST"
+  ],
+  "author": "Reynir Gunnarsson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
