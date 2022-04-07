@@ -93,5 +93,5 @@ app.get(apiVersion + "/experience", (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log('reynir app listening on port + ' + port);
+    console.log('CV app listening on port + ' + port);
 });

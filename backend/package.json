@@ -1,7 +1,7 @@
 {
-  "name": "reynirbackend",
+  "name": "CVbackend",
   "version": "0.0.1",
-  "description": "A backend for me.",
+  "description": "A backend for my CV.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
